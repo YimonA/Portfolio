@@ -49,7 +49,7 @@ const Education = () => {
         <motion.div
           initial={{ y: 120 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: false }}
           className="flex"
         >
@@ -77,7 +77,7 @@ const Education = () => {
         <motion.div
           initial={{ y: 130 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: false }}
           className="flex"
         >
