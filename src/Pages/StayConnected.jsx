@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import FooterBottomGirl from "../images/contact/footer-bottom-girl.png";
 import FooterBottomShape from "../images/contact/footer-bottom-shape.png";
 
-
 const StayConnected = () => {
   return (
     <div className="container mx-auto relative mt-20">
@@ -35,11 +34,17 @@ const StayConnected = () => {
           </p>
           <div className=" flex gap-3 justify-center items-center my-5">
             <button className=" ">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"
-                className="p-2 bg-white w-10 h-10 rounded-full shadow-lg flex self-center"
-                alt=""
-              />
+              <a
+                href="https://github.com/YimonA?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/25/25231.png"
+                  className="p-2 bg-white w-10 h-10 rounded-full shadow-lg flex self-center"
+                  alt=""
+                />
+              </a>
             </button>
             <button alt="" className="">
               <img

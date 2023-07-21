@@ -72,11 +72,16 @@ const ContactMeDetail = () => {
           <input
             type="text"
             className=" border-b bg-transparent border-[#A3A5A7] focus:border-[#df5646] outline-none h-10 w-full"
-            placeholder="Tell me about your project"
-            name="message"
+            placeholder="Tell me about your subject"
+            name="subject"
             id=""
             required
           />
+          
+          <textarea
+          className=" border-b bg-transparent border-[#A3A5A7] focus:border-[#df5646] outline-none w-full h-24"
+          placeholder="Tell me about your message"
+           name="message" id="" cols="30" rows="10" required></textarea>
           <button
             className="w-fit my-5 flex self-end	 text-[#df5646]"
             type="submit"

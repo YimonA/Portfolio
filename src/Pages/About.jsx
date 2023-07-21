@@ -14,8 +14,8 @@ const About = () => {
   return (
     <div className="flex justify-center items-center h-screen w-full md:max-w-3xl lg:max-w-screen-2xl my-40 md:my-0 px-1 md:px-4 lg:px-10 mx-auto">
       <div className=" container h-full">
-        <div className="h-full flex flex-col lg:flex-row ">
-          <div className=" basis-5/12 flex flex-col lg:justify-center w-full pl-0 lg:pl-12 ">
+        <div className="h-full flex flex-col lg:flex-row pb-10 lg:pb-0">
+          <div className=" basis-5/12 flex flex-col lg:justify-center w-full pl-0 lg:pl-12 md:py-20 ">
             <Badges>About me</Badges>
             <motion.h1
               initial={{ y: 80 }}
@@ -90,30 +90,45 @@ const About = () => {
               className=" flex flex-row gap-3 items-end pt-10"
             >
               <button type="button" className=" text-base ">
+                <a href="">
+
                 <FaFacebookF className="w-5 h-5 my-2 mx-2 cursor-pointer  " />
+                </a>
               </button>
               <button type="button" className=" text-base  ">
+              <a href="">
+
                 <FaLinkedinIn className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
               <button type="button" className=" text-base ">
-                <FaGithub className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                <a
+                  href="https://github.com/YimonA?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
               <button type="button" className=" text-base ">
+              <a href="">
+
                 <FaTwitter className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
             </motion.div>
           </div>
 
-          <div className="flip-card relative w-full h-full basis-7/12 px-2 mt-14 md:mt-0">
+          <div className="basis-7/12 flip-card relative w-full h-full px-2 mt-14 md:mt-0">
             <div
               className={`${
                 theme.palette.mode === "light" ? "bg-[#f89a8f]" : "bg-[#32324C]"
-              } hidden md:block w-[42%] h-full absolute right-0`}
+              } hidden lg:block w-[42%] h-full absolute right-0`}
             ></div>
-            <div className=" flip-card-inner">
+            <div className=" flip-card-inner pb-20 lg:pb-0">
               <img
                 src={me1}
-                className={`flip-card-back rounded-full w-[450px] h-[450px] md:absolute md:top-[50%] md:-translate-y-[50%] md:right-2 xl:right-20 z-30 object-cover object-center ${
+                className={`flip-card-back rounded-xl lg:rounded-full w-[450px] h-[450px] lg:absolute lg:top-[50%] lg:-translate-y-[50%] lg:right-2 xl:right-20 z-30 object-cover object-center ${
                   theme.palette.mode === "light"
                     ? "border-2 neonRed"
                     : "border-2 neonBlue"
@@ -121,7 +136,7 @@ const About = () => {
               ></img>
               <img
                 src={me1}
-                className={`hidden lg:block flip-card-back rounded-full w-[450px] h-[450px] md:absolute md:top-[50%] md:-translate-y-[50%] md:right-2 xl:right-20 z-30 object-cover object-center${
+                className={`hidden lg:block flip-card-back rounded-xl lg:rounded-full w-[450px] h-[450px] lg:absolute lg:top-[50%] lg:-translate-y-[50%] lg:right-2 xl:right-20 z-30 object-cover object-center${
                   theme.palette.mode === "light"
                     ? "p-2 neonRed"
                     : "p-2 neonBlue"
