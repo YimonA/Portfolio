@@ -4,7 +4,7 @@ import PortfolioCarousel from "../Components/PortfolioCarousel";
 
 const Portfolio = () => {
   return (
-    <div className="container px-5 md:px-12 2xl:px-48 mx-auto flex flex-col items-center justify-center lg:h-screen">
+    <div className="container px-5 md:px-12 2xl:px-48 mx-auto flex flex-col items-center justify-center lg:h-screen lg:pb-5">
       <div className="w-full">
         <PortfolioText />
       </div>
