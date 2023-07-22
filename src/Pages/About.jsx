@@ -90,13 +90,13 @@ const About = () => {
               className=" flex flex-row gap-3 items-end pt-10"
             >
               <button type="button" className=" text-base ">
-                <a href="">
+                <a href="#">
 
                 <FaFacebookF className="w-5 h-5 my-2 mx-2 cursor-pointer  " />
                 </a>
               </button>
               <button type="button" className=" text-base  ">
-              <a href="">
+              <a href="#">
 
                 <FaLinkedinIn className="w-5 h-5 my-2 mx-2 cursor-pointer" />
                 </a>
@@ -111,7 +111,7 @@ const About = () => {
                 </a>
               </button>
               <button type="button" className=" text-base ">
-              <a href="">
+              <a href="#">
 
                 <FaTwitter className="w-5 h-5 my-2 mx-2 cursor-pointer" />
                 </a>

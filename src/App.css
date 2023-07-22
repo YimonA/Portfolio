@@ -313,7 +313,7 @@ a:hover {
   background: var(--heading-color);
 }
 
-.carousel-image .theme-btn {
+.carousel-image .theme-btn,.carousel-image .theme-btn-link{
   opacity: 0;
 }
 
@@ -321,8 +321,26 @@ a:hover {
   opacity: 0.65;
 }
 
-.carousel-image .image:hover .theme-btn {
+.carousel-image .image:hover .theme-btn,.carousel-image .image:hover .theme-btn-link {
   opacity: 1;
+}
+
+.theme-btn-link{
+  width: 52px;
+  height: 52px;
+  padding: 10px 0;
+  border-radius: 100%;
+  z-index: 1;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  background: var(--primary-color);
+  box-shadow: 0 16px 16px rgba(116, 113, 113, 0.16);
 }
 
 .theme-btn {

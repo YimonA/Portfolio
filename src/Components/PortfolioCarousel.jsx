@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
+import { FiGithub } from "react-icons/fi";
 
 import RealEstateLight from "../images/RealEstate-Light.png";
 import RealEstateDark from "../images/RealEstate-Dark.png";
@@ -47,80 +48,119 @@ const PortfolioCarousel = () => {
       className=""
     >
       <Slider {...settings}>
-        <div className="carousel-image  px-5">
-          <a
-            href="https://real-estate-teamf.vercel.app/"
+        <div className="carousel-image  px-5 ">
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateLight})`,
             }}
-            target="_blank"
           >
-            {/* <div className="absolute bg-[var(--heading-color)] w-[100%] h-[100%] duration-500 opacity-0 hover:opacity-[0.65] inset-0"></div> */}
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
+              {/* <div className="absolute bg-[var(--heading-color)] w-[100%] h-[100%] duration-500 opacity-0 hover:opacity-[0.65] inset-0"></div> */}
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
         <div className="carousel-image px-5">
-          <a
-            href="https://real-estate-teamf.vercel.app/"
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateDark})`,
             }}
-            target="_blank"
           >
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
         <div className="carousel-image px-5">
-          <a
-            href="https://real-estate-dashboard-team-f.vercel.app/login"
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateDashboard})`,
               backgroundRepeat: "no-repeat",
             }}
-            target="_blank"
           >
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a
+              href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
+              target="_blank"
+            >
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://real-estate-dashboard-team-f.vercel.app/login"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
         <div className="carousel-image  px-5">
-          <a
-            href="https://google-contact-ten.vercel.app/login"
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${GoogleContact})`,
               backgroundRepeat: "no-repeat",
             }}
-            target="_blank"
           >
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a href="https://github.com/YimonA/google-contact" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://google-contact-ten.vercel.app/login"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
         <div className="carousel-image px-5">
-          <a
-            href=""
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(https://wordpressriverthemes.com/HTML/itsme/assets/images/previews/light.png)`,
             }}
-            target="_blank"
           >
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a href="https://github.com/YimonA/Portfolio" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="" target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
         <div className="carousel-image  px-5">
-          <a
-            href=""
+          <div
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(https://wordpressriverthemes.com/HTML/itsme/assets/images/previews/dark.png)`,
             }}
-            target="_blank"
           >
-            <button className="theme-btn">view demo</button>
-          </a>
+            <a href="https://github.com/YimonA/Portfolio" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href=""target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
         </div>
       </Slider>
     </motion.div>

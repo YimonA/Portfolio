@@ -16,7 +16,7 @@ const Services = () => {
   const theme = useTheme();
   return (
     <>
-      <div className=" flex justify-center items-center lg:h-screen w-full md:max-w-3xl lg:max-w-screen-2xl px-3 md:px-4 lg:px-14 mx-auto">
+      <div className=" flex justify-center items-center lg:h-screen w-full md:max-w-3xl lg:max-w-screen-2xl  my-40 md:my-0 px-3 md:px-4 lg:px-14 mx-auto">
         <div className=" container">
           <div className="flex flex-col lg:flex-row items-center pt-32 md:pt-0">
             <div className=" basis-7/12 w-full  ">

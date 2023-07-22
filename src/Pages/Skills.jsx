@@ -12,9 +12,9 @@ import ShapeTwoDark from "../images/skills/shape-two-dark.png";
 const Skills = () => {
   const theme = useTheme();
   return (
-    <div className="flex justify-center items-center lg:h-screen w-full md:max-w-3xl lg:max-w-screen-2xl px-3 md:px-4 lg:px-14 mx-auto">
+    <div className="flex justify-center items-center lg:h-screen w-full md:max-w-3xl lg:max-w-screen-2xl px-3 md:px-4 lg:px-14 mx-auto my-40 md:my-0">
       <div className="container  ">
-        <div className="flex flex-col lg:flex-row pt-32 md:pt-0">
+        <div className="flex flex-col lg:flex-row ">
           <div className=" basis-5/12 w-full ">
             <Badges>Skills</Badges>
             <motion.h1
