@@ -10,7 +10,7 @@ import Navbar from "./Navbar";
 import Weapons from "../Pages/Weapons";
 import ContactMe from "../Pages/ContactMe";
 import Resume from "../Pages/Resume";
-import Portfolio from "../Pages/Portfolio";
+import Projects from "../Pages/Projects";
 import Certificates from "../Pages/Certificates";
 // import StayConnected from "../Pages/StayConnected";
 
@@ -38,7 +38,7 @@ function MyMain() {
         component: <Certificates />,
       },
       {
-        component: <Portfolio />,
+        component: <Projects />,
       },
       {
         component: <Testimonial />,
@@ -62,7 +62,7 @@ function MyMain() {
     "Skills",
     "Resume",
     "Certificates",
-    "Portfolio",
+    "Projects",
     "Testimonial",
     "Weapons",
     "ContactMe",

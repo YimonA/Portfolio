@@ -140,7 +140,7 @@ const PortfolioCarousel = () => {
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a href="" target="_blank">
+            <a href="https://portfolio-team-f-ihrm.vercel.app/" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>
@@ -157,7 +157,7 @@ const PortfolioCarousel = () => {
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a href=""target="_blank">
+            <a href="https://portfolio-team-f-ihrm.vercel.app/" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>

@@ -38,7 +38,7 @@ const Experience = () => {
             as a team member in workshop
             </h3>
             <p className=" paragraph-1 md:w-96">
-              In 2023 June, I joined the workshop for frontend development on <a href="https://mms-it.com/" target="_blank" className=" text-[var(--primary-color)]">MMS ONE STOP IT SOLUTIONS.</a> On the workshop, I got many experience about how to collaborate with team members, how to use git & github, framework and library effectively, and many useful knowledge about the frontend development. 
+              In 2023 June, I joined the workshop for frontend development on <a href="https://mms-it.com/" target="_blank" className=" text-[var(--primary-color)]">MMS ONE STOP IT SOLUTIONS.</a> On the workshop, I got many experience about how to collaborate and negotiate with team members, how to use git & github, framework and library effectively, and many useful knowledge about the frontend development. 
             </p>
           </div>
         </motion.div>
