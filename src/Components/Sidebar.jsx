@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import resume from "../CV/simple_resume.pdf";
+import resume from "../CV/CV-Yi Mon Aye.pdf";
 
 const Sidebar = () => {
   const [listOne, setListOne] = useState(false);
@@ -312,7 +312,7 @@ const Sidebar = () => {
               >
                 <a
                   href={resume}
-                  download="Resume"
+                  download="CV-Yi Mon Aye.pdf"
                   className="text-lg font-bold text-[var(--menu-text-color)]"
                 >
                   Download CV
