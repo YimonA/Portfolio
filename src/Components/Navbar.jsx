@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 import IconButton from "@mui/material/IconButton";
 import { useTheme } from "@mui/material/styles";
 import Sidebar from "./Sidebar";
-import resume from "../CV/simple_resume.pdf";
+import resume from "../CV/CV-Yi Mon Aye.pdf";
 
 const Navbar = ({ ColorModeContext }) => {
   const theme = useTheme();
@@ -30,7 +30,7 @@ const Navbar = ({ ColorModeContext }) => {
           <div className=" mx-[20px] lg:me-[50px] invisible lg:visible">
             <a
               href={resume}
-              download="Resume"
+              download="CV - Yi Mon Aye"
               className="flex items-center mx-5 text-[0.8rem] font-medium hover:text-[var(--primary-color)]"
             >
               <span className="me-2">Download CV</span>

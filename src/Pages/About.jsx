@@ -44,7 +44,7 @@ const About = () => {
               viewport={{ once: false }}
               className=" tracking-wide  leading-relaxed text-2xl font-sans "
             >
-              Frontend Web Developer
+              Frontend Developer
             </motion.h3>
             <motion.p
               initial={{ y: 120 }}
@@ -55,17 +55,10 @@ const About = () => {
             >
               Hey are you looking for developer to build your
               <br />
-              <b className="text-[#DF5646]">website and grow your business?</b>
+              <b className="text-[#DF5646]">website design and grow your business?</b>
               <br />
               let's shake hands with me.
             </motion.p>
-            {/* <button
-              type="button"
-              className="text-white tracking-wider bg-[#DF5646] hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300  rounded-lg  px-5 py-3 my-10 text-center inline-flex items-center capitalize "
-            >
-              Hire me
-              <BsArrowRightShort className=" bg-inherit w-7 h-7 text-white ms-3"/>
-            </button> */}
             <motion.div
               initial={{ y: 130 }}
               whileInView={{ y: 0 }}
@@ -128,6 +121,7 @@ const About = () => {
             <div className=" flip-card-inner pb-20 lg:pb-0">
               <img
                 src={me1}
+                loading="lazy"
                 className={`flip-card-back rounded-xl lg:rounded-full w-[450px] h-[450px] lg:absolute lg:top-[50%] lg:-translate-y-[50%] lg:right-2 xl:right-20 z-30 object-cover object-center ${
                   theme.palette.mode === "light"
                     ? "border-2 neonRed"
@@ -136,6 +130,7 @@ const About = () => {
               ></img>
               <img
                 src={me1}
+                loading="lazy"
                 className={`hidden lg:block flip-card-back rounded-xl lg:rounded-full w-[450px] h-[450px] lg:absolute lg:top-[50%] lg:-translate-y-[50%] lg:right-2 xl:right-20 z-30 object-cover object-center${
                   theme.palette.mode === "light"
                     ? "p-2 neonRed"

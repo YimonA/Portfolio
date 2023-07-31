@@ -39,7 +39,7 @@ const WeaponsDetail = () => {
           good at these, these are the main tools of my design career those are
           help me for make sure my Clients satisfication.
         </p>
-        <div className=" flex justify-start items-center hover:text-[#df5646] relative">
+        <div className=" flex justify-start items-center hover:text-[#df5646] relative hover:cursor-pointer">
           <a href="#" className=" underline hover:no-underline">
             Lets See My Work Process
           </a>
