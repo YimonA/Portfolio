@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import resume from "../CV/CV-Yi Mon Aye.pdf";
+import resume from "../CV/CV - Yi Mon Aye.pdf";
 
 const Sidebar = () => {
   const [listOne, setListOne] = useState(false);

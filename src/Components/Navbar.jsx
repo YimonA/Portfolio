@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 import IconButton from "@mui/material/IconButton";
 import { useTheme } from "@mui/material/styles";
 import Sidebar from "./Sidebar";
-import resume from "../CV/CV-Yi Mon Aye.pdf";
+import resume from "../CV/CV - Yi Mon Aye.pdf";
 
 const Navbar = ({ ColorModeContext }) => {
   const theme = useTheme();
