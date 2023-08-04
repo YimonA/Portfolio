@@ -35,7 +35,7 @@ const Skills = () => {
                 />
               </span>
             </motion.h1>
-            <motion.p
+            {/* <motion.p
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
@@ -45,7 +45,7 @@ const Skills = () => {
               All developers have good skills to make sure satisfied their
               clients, As a web-developer I am also specialized in few{" "}
               <span className="text-[#DF5646] font-medium">skills.</span>
-            </motion.p>
+            </motion.p> */}
             <div className=" flex flex-col ">
               <div>
                 <div className="mb-1 text-base flex justify-between font-medium ">
@@ -55,7 +55,7 @@ const Skills = () => {
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
                   <motion.div
                     initial={{ x: -10, width: "0" }}
-                    whileInView={{ x: 0, width: "80%" }}
+                    whileInView={{ x: 0, width: "75%" }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     viewport={{ once: false }}
                     className="bg-[#75a9d6] h-2.5 rounded-full animated "
@@ -65,13 +65,13 @@ const Skills = () => {
               </div>
               <div>
                 <div className="mb-1 text-base flex justify-between font-medium ">
-                  <span>Html</span>
+                  <span>HTML</span>
                   <span>95%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
                   <motion.div
                     initial={{ x: -10, width: "0" }}
-                    whileInView={{ x: 0, width: "65%" }}
+                    whileInView={{ x: 0, width: "95%" }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     viewport={{ once: false }}
                     className="bg-[#75a9d6] h-2.5 rounded-full animated "
@@ -81,13 +81,13 @@ const Skills = () => {
               </div>
               <div>
                 <div className="mb-1 text-base flex justify-between font-medium ">
-                  <span>Css</span>
+                  <span>CSS</span>
                   <span>85%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
                   <motion.div
                     initial={{ x: -10, width: "0" }}
-                    whileInView={{ x: 0, width: "75%" }}
+                    whileInView={{ x: 0, width: "85%" }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     viewport={{ once: false }}
                     className="bg-[#75a9d6] h-2.5 rounded-full animated "
@@ -103,7 +103,7 @@ const Skills = () => {
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
                   <motion.div
                     initial={{ x: -10, width: "0" }}
-                    whileInView={{ x: 0, width: "85%" }}
+                    whileInView={{ x: 0, width: "75%" }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     viewport={{ once: false }}
                     className="bg-[#75a9d6] h-2.5 rounded-full animated "
@@ -113,8 +113,8 @@ const Skills = () => {
               </div>
               <div>
                 <div className="mb-1 text-base flex justify-between font-medium ">
-                  <span>React</span>
-                  <span>70%</span>
+                  <span>Bootstrap</span>
+                  <span>85%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
                   <motion.div
@@ -123,7 +123,55 @@ const Skills = () => {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     viewport={{ once: false }}
                     className="bg-[#75a9d6] h-2.5 rounded-full animated "
-                    style={{ width: "70%" }}
+                    style={{ width: "85%" }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div>
+                <div className="mb-1 text-base flex justify-between font-medium ">
+                  <span>Tailwind CSS</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
+                  <motion.div
+                    initial={{ x: -10, width: "0" }}
+                    whileInView={{ x: 0, width: "85%" }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                    viewport={{ once: false }}
+                    className="bg-[#75a9d6] h-2.5 rounded-full animated "
+                    style={{ width: "85%" }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div>
+                <div className="mb-1 text-base flex justify-between font-medium ">
+                  <span>React</span>
+                  <span>80%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
+                  <motion.div
+                    initial={{ x: -10, width: "0" }}
+                    whileInView={{ x: 0, width: "80%" }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                    viewport={{ once: false }}
+                    className="bg-[#75a9d6] h-2.5 rounded-full animated "
+                    style={{ width: "80%" }}
+                  ></motion.div>
+                </div>
+              </div>
+              <div>
+                <div className="mb-1 text-base flex justify-between font-medium ">
+                  <span>Redux</span>
+                  <span>75%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 ">
+                  <motion.div
+                    initial={{ x: -10, width: "0" }}
+                    whileInView={{ x: 0, width: "75%" }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                    viewport={{ once: false }}
+                    className="bg-[#75a9d6] h-2.5 rounded-full animated "
+                    style={{ width: "75%" }}
                   ></motion.div>
                 </div>
               </div>

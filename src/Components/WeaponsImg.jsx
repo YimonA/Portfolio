@@ -69,7 +69,7 @@ const WeaponsImg = () => {
         whileInView={{scale:1,x:0,y:0,opacity:1}}
         transition={{duration:0.6}}
         viewport={{once:false}}
-         src="https://wordpressriverthemes.com/HTML/itsme/assets/images/weapons/xd.png"  className="w-[70px] h-[70px] md:w-[117px] md:h-[117px] p-2 md:p-5 rounded-xl shadow-2xl absolute -top-14 md:-top-18 lg:-top-20 right-4 md:-right-40 lg:-right-7 2xl:right-24 bg-white" alt="" />
+         src="https://wordpressriverthemes.com/HTML/itsme/assets/images/weapons/figma.png"  className="w-[70px] h-[70px] md:w-[117px] md:h-[117px] p-2 md:p-5 rounded-xl shadow-2xl absolute -top-14 md:-top-18 lg:-top-20 right-4 md:-right-40 lg:-right-7 2xl:right-24 bg-white" alt="" />
 
         </div>
       </div>
