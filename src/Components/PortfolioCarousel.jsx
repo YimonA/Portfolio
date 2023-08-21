@@ -4,11 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 import { FiGithub } from "react-icons/fi";
-
 import RealEstateLight from "../images/RealEstate-Light.png";
-import RealEstateDark from "../images/RealEstate-Dark.png";
 import RealEstateDashboard from "../images/RealEstate-Dashboard.png";
-import GoogleContact from "../images/GoogleContact.png";
+import ContactApp from "../images/ContactApp.png";
 
 const PortfolioCarousel = () => {
   const settings = {
@@ -86,23 +84,6 @@ const PortfolioCarousel = () => {
           <div
             className="image hover:bg-bottom"
             style={{
-              backgroundImage: `url(${RealEstateDark})`,
-            }}
-          >
-            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
               backgroundImage: `url(${RealEstateDashboard})`,
               backgroundRepeat: "no-repeat",
             }}
@@ -127,36 +108,19 @@ const PortfolioCarousel = () => {
           <div
             className="image hover:bg-bottom"
             style={{
-              backgroundImage: `url(${GoogleContact})`,
+              backgroundImage: `url(${ContactApp})`,
               backgroundRepeat: "no-repeat",
             }}
           >
-            <a href="https://github.com/YimonA/google-contact" target="_blank">
+            <a href="https://github.com/YimonA/Contact-App" target="_blank">
               <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
             <a
-              href="https://google-contact-ten.vercel.app/login"
+              href="https://contact-app-yimona.vercel.app/login"
               target="_blank"
             >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(https://wordpressriverthemes.com/HTML/itsme/assets/images/previews/light.png)`,
-            }}
-          >
-            <a href="https://github.com/YimonA/Portfolio" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://portfolio-team-f-ihrm.vercel.app/" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>
