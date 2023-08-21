@@ -48,6 +48,23 @@ const PortfolioCarousel = () => {
       className=""
     >
       <Slider {...settings}>
+      {/* <div className="carousel-image  px-5 ">
+          <div
+            className="image hover:bg-bottom"
+            style={{
+              backgroundImage: `url(${RealEstateLight})`,
+            }}
+          >
+            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div> */}
         <div className="carousel-image  px-5 ">
           <div
             className="image hover:bg-bottom"
@@ -61,7 +78,6 @@ const PortfolioCarousel = () => {
               </button>
             </a>
             <a href="https://real-estate-teamf.vercel.app/" target="_blank">
-              {/* <div className="absolute bg-[var(--heading-color)] w-[100%] h-[100%] duration-500 opacity-0 hover:opacity-[0.65] inset-0"></div> */}
               <button className="theme-btn">view demo</button>
             </a>
           </div>

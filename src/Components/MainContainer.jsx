@@ -5,14 +5,11 @@ import { useTheme, ThemeProvider, createTheme } from "@mui/material/styles";
 import About from "../Pages/About";
 import Services from "../Pages/Services";
 import Skills from "../Pages/Skills";
-import Testimonial from "../Pages/Testimonial";
 import Navbar from "./Navbar";
-import Weapons from "../Pages/Weapons";
 import ContactMe from "../Pages/ContactMe";
 import Resume from "../Pages/Resume";
 import Projects from "../Pages/Projects";
 import Certificates from "../Pages/Certificates";
-// import StayConnected from "../Pages/StayConnected";
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
@@ -41,12 +38,6 @@ function MyMain() {
         component: <Projects />,
       },
       {
-        component: <Testimonial />,
-      },
-      {
-        component: <Weapons />,
-      },
-      {
         component: <ContactMe />,
         // component: <ToggleColorMode />,
       },
@@ -63,8 +54,6 @@ function MyMain() {
     "Resume",
     "Certificates",
     "Projects",
-    "Testimonial",
-    "Weapons",
     "ContactMe",
   ];
 

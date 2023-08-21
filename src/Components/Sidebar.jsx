@@ -11,8 +11,6 @@ const Sidebar = () => {
   const [listThree, setListThree] = useState(false);
   const [listFour, setListFour] = useState(false);
   const [listFive, setListFive] = useState(false);
-  const [listSix, setListSix] = useState(false);
-  const [listSeven, setListSeven] = useState(false);
   const [listEight, setListEight] = useState(false);
   const [listNine, setListNine] = useState(false);
   const [listTen, setListTen] = useState(false);
@@ -23,8 +21,6 @@ const Sidebar = () => {
     setListThree(false);
     setListFour(false);
     setListFive(false);
-    setListSix(false);
-    setListSeven(false);
     setListEight(false);
     setListNine(false);
     setListTen(false);
@@ -210,60 +206,6 @@ const Sidebar = () => {
                   Projects{" "}
                   <AnimatePresence>
                     {listFive && (
-                      <motion.p
-                        initial={{ opacity: 0, x: 100 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: 100 }}
-                        transition={{ duration: "1" }}
-                        className="absolute top-[50%] right-0 w-1 h-1 rounded-full bg-[#333] inline-block"
-                      ></motion.p>
-                    )}
-                  </AnimatePresence>
-                </a>
-              </button>
-            </li>
-
-            <li>
-              <button
-                onClick={() => setListFunc(setListSix)}
-                className={`px-2 relative hover:bg-[#fcf1e7] ${
-                  listSix ? "bg-[#fcf1e7]" : ""
-                }`}
-              >
-                <a
-                  href="#Testimonial"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
-                  Testimonials{" "}
-                  <AnimatePresence>
-                    {listSix && (
-                      <motion.p
-                        initial={{ opacity: 0, x: 100 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: 100 }}
-                        transition={{ duration: "1" }}
-                        className="absolute top-[50%] right-0 w-1 h-1 rounded-full bg-[#333] inline-block"
-                      ></motion.p>
-                    )}
-                  </AnimatePresence>
-                </a>
-              </button>
-            </li>
-
-            <li>
-              <button
-                onClick={() => setListFunc(setListSeven)}
-                className={`px-2 relative hover:bg-[#fcf1e7] ${
-                  listSeven ? "bg-[#fcf1e7]" : ""
-                }`}
-              >
-                <a
-                  href="#Weapons"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
-                  Weapons{" "}
-                  <AnimatePresence>
-                    {listSeven && (
                       <motion.p
                         initial={{ opacity: 0, x: 100 }}
                         animate={{ opacity: 1, x: 0 }}
