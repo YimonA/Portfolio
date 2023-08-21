@@ -63,6 +63,27 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div> */}
+        <div className="carousel-image  px-5">
+          <div
+            className="image hover:bg-bottom"
+            style={{
+              backgroundImage: `url(${ContactApp})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <a href="https://github.com/YimonA/Contact-App" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://contact-app-yimona.vercel.app/login"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
         <div className="carousel-image  px-5 ">
           <div
             className="image hover:bg-bottom"
@@ -104,27 +125,7 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div>
-        <div className="carousel-image  px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${ContactApp})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/Contact-App" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://contact-app-yimona.vercel.app/login"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
+        
         <div className="carousel-image  px-5">
           <div
             className="image hover:bg-bottom"
