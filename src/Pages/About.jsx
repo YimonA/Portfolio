@@ -44,7 +44,7 @@ const About = () => {
               viewport={{ once: false }}
               className=" tracking-wide  leading-relaxed text-2xl font-sans "
             >
-              Frontend Developer
+              Frontend Developer (React)
             </motion.h3>
             <motion.p
               initial={{ y: 120 }}

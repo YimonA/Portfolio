@@ -7,6 +7,7 @@ import { FiGithub } from "react-icons/fi";
 import RealEstateLight from "../images/RealEstate-Light.png";
 import RealEstateDashboard from "../images/RealEstate-Dashboard.png";
 import ContactApp from "../images/ContactApp.png";
+import GoogleContact from "../images/GoogleContact.png";
 
 const PortfolioCarousel = () => {
   const settings = {
@@ -41,7 +42,7 @@ const PortfolioCarousel = () => {
     <motion.div
       initial={{ y: 60 }}
       whileInView={{ y: 0 }}
-      transition={{ duration: 1.2, delay: 0.6 }}
+      transition={{ duration: 0.6, delay: 0.1 }}
       viewport={{ once: false }}
       className=""
     >
@@ -63,9 +64,9 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div> */}
-        <div className="carousel-image  px-5">
+        <div className="carousel-image px-5 ">
           <div
-            className="image hover:bg-bottom"
+            className="image hover:bg-bottom object-contain bg-white"
             style={{
               backgroundImage: `url(${ContactApp})`,
               backgroundRepeat: "no-repeat",
@@ -130,15 +131,17 @@ const PortfolioCarousel = () => {
           <div
             className="image hover:bg-bottom"
             style={{
-              backgroundImage: `url(https://wordpressriverthemes.com/HTML/itsme/assets/images/previews/dark.png)`,
+              backgroundImage: `url(${GoogleContact})`,
+              backgroundRepeat: "no-repeat",
+
             }}
           >
-            <a href="https://github.com/YimonA/Portfolio" target="_blank">
+            <a href="https://github.com/YimonA/google-contact" target="_blank">
               <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a href="https://portfolio-team-f-ihrm.vercel.app/" target="_blank">
+            <a href="https://google-contact-ten.vercel.app/" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>

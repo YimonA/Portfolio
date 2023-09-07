@@ -31,7 +31,7 @@ const PortfolioText = () => {
             </span>
           </motion.h2>
         </div>
-        <motion.p
+        {/* <motion.p
           initial={{ y: 60 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -46,7 +46,7 @@ const PortfolioText = () => {
           >
             &nbsp; see here.
           </a>
-        </motion.p>
+        </motion.p> */}
         {/* <motion.a
          initial={{ y: 60 }}
          whileInView={{ y: 0 }}
@@ -63,11 +63,11 @@ const PortfolioText = () => {
         <motion.div
           initial={{ y: 60 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 1.2, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: false }}
           className="flex flex-col md:flex-row"
         >
-          <div className="flex flex-wrap md:justify-center items-center mt-12 md:mr-12 md:pr-12 md:border-r md:border-[#B7B7B7]">
+          <div className="flex flex-wrap md:justify-center items-center mt-12 md:pr-12 ms-auto md:border-r md:border-[#B7B7B7]">
             <span className=" text-5xl font-normal mr-4 text-[var(--primary-color)]">
               0
               <CountUp end={2} duration={4}>
@@ -81,7 +81,7 @@ const PortfolioText = () => {
             <h5 className="header-5 w-20">Years of Experience</h5>
           </div>
 
-          <div className="flex flex-wrap md:justify-center items-center mt-12 ">
+          {/* <div className="flex flex-wrap md:justify-center items-center mt-12 ">
             <span className=" text-5xl font-normal mr-4 text-[var(--primary-color)]">
               <CountUp end={120}>
                 {({ countUpRef, start }) => (
@@ -94,7 +94,7 @@ const PortfolioText = () => {
             </span>
 
             <h5 className="header-5 w-20">Satisfied Clients</h5>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </div>

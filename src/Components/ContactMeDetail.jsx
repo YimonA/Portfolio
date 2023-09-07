@@ -41,8 +41,6 @@ const ContactMeDetail = () => {
         viewport={{ once: false }}
         className="header-2"
       >
-        Estimate Your Project?
-        <br />
         Let Me Know Here.
       </motion.p>
       <form ref={form} onSubmit={sendEmail}>

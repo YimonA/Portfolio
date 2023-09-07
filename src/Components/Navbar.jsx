@@ -28,14 +28,14 @@ const Navbar = ({ ColorModeContext }) => {
         </div>
         <div className="flex justify-center items-center">
           <div className=" mx-[20px] lg:me-[50px] invisible lg:visible">
-            <a
+            {/* <a
               href={resume}
               download="CV - Yi Mon Aye"
               className="flex items-center mx-5 text-[0.8rem] font-medium hover:text-[var(--primary-color)]"
             >
               <span className="me-2">Download CV</span>
               <FaDownload />
-            </a>
+            </a> */}
           </div>
           <div className="mx-[10px] lg:me-[50px]">
             <IconButton
