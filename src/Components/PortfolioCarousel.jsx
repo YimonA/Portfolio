@@ -9,6 +9,7 @@ import RealEstateDashboard from "../images/RealEstate-Dashboard.png";
 import ContactApp from "../images/ContactApp.png";
 import GoogleContact from "../images/GoogleContact.png";
 import Ecommerce from "../images/E-commerce.png";
+import POS from "../images/POS.png";
 
 const PortfolioCarousel = () => {
   const settings = {
@@ -48,7 +49,31 @@ const PortfolioCarousel = () => {
       className=""
     >
       <Slider {...settings}>
-      {/* <div className="carousel-image  px-5 ">
+      <div className="carousel-image px-5">
+          <div
+            className="image hover:bg-bottom"
+            style={{
+              backgroundImage: `url(${RealEstateDashboard})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <a
+              href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
+              target="_blank"
+            >
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://real-estate-dashboard-team-f.vercel.app/login"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
+      <div className="carousel-image  px-5 ">
           <div
             className="image hover:bg-bottom"
             style={{
@@ -64,7 +89,8 @@ const PortfolioCarousel = () => {
               <button className="theme-btn">view demo</button>
             </a>
           </div>
-        </div> */}
+        </div>
+        
         <div className="carousel-image px-5 ">
           <div
             className="image hover:bg-bottom object-contain bg-white"
@@ -108,48 +134,25 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div>
+        
         <div className="carousel-image  px-5 ">
           <div
-            className="image hover:bg-bottom"
+            className="image hover:bg-bottom bg-[#161618]"
             style={{
-              backgroundImage: `url(${RealEstateLight})`,
-            }}
-          >
-            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${RealEstateDashboard})`,
+              backgroundImage: `url(${POS})`,
               backgroundRepeat: "no-repeat",
             }}
           >
-            <a
-              href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
-              target="_blank"
-            >
+            <a href="https://github.com/YimonA/MMS-POS" target="_blank">
               <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a
-              href="https://real-estate-dashboard-team-f.vercel.app/login"
-              target="_blank"
-            >
+            <a href="https://mms-pos.vercel.app/" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>
-        </div>
-        
+        </div> 
         <div className="carousel-image  px-5">
           <div
             className="image hover:bg-bottom"
