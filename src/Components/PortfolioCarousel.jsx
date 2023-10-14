@@ -49,6 +49,24 @@ const PortfolioCarousel = () => {
       className=""
     >
       <Slider {...settings}>
+      <div className="carousel-image  px-5 ">
+          <div
+            className="image hover:bg-bottom bg-[#161618]"
+            style={{
+              backgroundImage: `url(${POS})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <a href="https://github.com/YimonA/POS_v1.0.0" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="https://pos-v1-0-0.vercel.app" target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
       <div className="carousel-image px-5">
           <div
             className="image hover:bg-bottom"
@@ -90,7 +108,46 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div>
-        
+        <div className="carousel-image  px-5">
+          <div
+            className="image hover:bg-bottom"
+            style={{
+              backgroundImage: `url(${GoogleContact})`,
+              backgroundRepeat: "no-repeat",
+
+            }}
+          >
+            <a href="https://github.com/YimonA/google-contact" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a href="https://google-contact-ten.vercel.app/" target="_blank">
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
+        <div className="carousel-image px-5 ">
+          <div
+            className="image hover:bg-bottom object-contain bg-white"
+            style={{
+              backgroundImage: `url(${Ecommerce})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <a href="https://github.com/YimonA/RTK-Shopping-Cart" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://shopping-cart-yimona.vercel.app/"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
         <div className="carousel-image px-5 ">
           <div
             className="image hover:bg-bottom object-contain bg-white"
@@ -113,65 +170,10 @@ const PortfolioCarousel = () => {
           </div>
         </div>
 
-        <div className="carousel-image px-5 ">
-          <div
-            className="image hover:bg-bottom object-contain bg-white"
-            style={{
-              backgroundImage: `url(${Ecommerce})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/RTK-Shopping-Cart" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://shopping-cart-yimona.vercel.app/"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
+      
         
-        <div className="carousel-image  px-5 ">
-          <div
-            className="image hover:bg-bottom bg-[#161618]"
-            style={{
-              backgroundImage: `url(${POS})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/MMS-POS" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://mms-pos.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div> 
-        <div className="carousel-image  px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${GoogleContact})`,
-              backgroundRepeat: "no-repeat",
-
-            }}
-          >
-            <a href="https://github.com/YimonA/google-contact" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://google-contact-ten.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
+         
+        
       </Slider>
     </motion.div>
   );
