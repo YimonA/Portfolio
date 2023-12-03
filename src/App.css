@@ -255,6 +255,9 @@ a:hover {
 .header-2{
   @apply text-[28px] leading-[1.35] md:text-[35px] font-bold font-serif capitalize mt-11 mb-2
 }
+.header-3{
+  @apply text-[28px] leading-[1.35] md:text-[35px] font-bold font-serif capitalize mt-3 2xl:mt-11 mb-2
+}
 .header-5{
   @apply text-base font-medium
 }

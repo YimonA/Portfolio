@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 const Education = () => {
   return (
     <div className="w-full lg:w-1/2 flex flex-col">
-      <div className="mb-11">
+      <div className="mb-3 2xl:mb-11">
         <Badges>Qualification</Badges>
         <motion.h2
           initial={{ y: 80 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           viewport={{ once: false }}
-          className="header-2"
+          className="header-3"
         >
           my education
         </motion.h2>
