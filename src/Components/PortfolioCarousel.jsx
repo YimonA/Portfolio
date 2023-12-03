@@ -57,12 +57,12 @@ const PortfolioCarousel = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <a href="https://github.com/YimonA/POS_v1.0.0" target="_blank">
+            <a href="https://github.com/YimonA/POS" target="_blank">
               <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a href="https://pos-v1-0-0.vercel.app" target="_blank">
+            <a href="https://pos-one-pi.vercel.app" target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>
