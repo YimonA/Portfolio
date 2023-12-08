@@ -70,7 +70,7 @@ const PortfolioText = () => {
           <div className="flex flex-wrap md:justify-center items-center mt-12 md:pr-12 ms-auto md:border-r md:border-[#B7B7B7]">
             <span className=" text-5xl font-normal mr-4 text-[var(--primary-color)]">
               0
-              <CountUp end={2} duration={4}>
+              <CountUp end={1} duration={4}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start}>
                     <span ref={countUpRef} />

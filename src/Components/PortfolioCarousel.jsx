@@ -10,6 +10,7 @@ import ContactApp from "../images/ContactApp.png";
 import GoogleContact from "../images/GoogleContact.png";
 import Ecommerce from "../images/E-commerce.png";
 import POS from "../images/POS.png";
+import BayDin from "../images/BayDin.png";
 
 const PortfolioCarousel = () => {
   const settings = {
@@ -169,7 +170,27 @@ const PortfolioCarousel = () => {
             </a>
           </div>
         </div>
-
+        <div className="carousel-image px-5 ">
+          <div
+            className="image hover:bg-bottom object-contain bg-white"
+            style={{
+              backgroundImage: `url(${BayDin})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <a href="https://github.com/YimonA/BayDin" target="_blank">
+              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
+                <FiGithub className="w-full h-full" color="white" />
+              </button>
+            </a>
+            <a
+              href="https://bay-din-five.vercel.app"
+              target="_blank"
+            >
+              <button className="theme-btn">view demo</button>
+            </a>
+          </div>
+        </div>
       
         
          
