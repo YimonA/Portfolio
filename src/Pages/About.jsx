@@ -76,7 +76,7 @@ const About = () => {
             </motion.div>
 
             <motion.div
-              initial={{ y: 140 }}
+              initial={{ y: 130 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: false }}
