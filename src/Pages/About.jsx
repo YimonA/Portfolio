@@ -14,7 +14,7 @@ const About = () => {
   return (
     <div className="flex justify-center items-center h-screen w-full md:max-w-3xl lg:max-w-screen-2xl my-40 md:my-0 px-1 md:px-4 lg:px-10 mx-auto">
       <div className=" container h-full">
-        <div className="h-full flex flex-col lg:flex-row pb-10 lg:pb-0">
+        <div className="h-full flex flex-col justify-between lg:flex-row pb-10 lg:pb-0">
           <div className=" basis-5/12 flex flex-col lg:justify-center w-full pl-0 lg:pl-12 md:py-20 ">
             <Badges>About me</Badges>
             <motion.h1
@@ -22,7 +22,7 @@ const About = () => {
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: false }}
-              className=" font-serif text-4xl  lg:text-6xl font-extrabold leading-relaxed "
+              className=" font-serif text-4xl  lg:text-5xl font-extrabold leading-relaxed "
             >
               Hi,
               <br />
