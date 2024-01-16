@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,8 +11,67 @@ import GoogleContact from "../images/GoogleContact.png";
 import Ecommerce from "../images/E-commerce.png";
 import POS from "../images/POS.png";
 import BayDin from "../images/BayDin.png";
+import IntranetDashboard from "../images/Intranet-Dashboard.png";
+import Invoice from "../images/Invoice.png";
 
 const PortfolioCarousel = () => {
+  const projects = useState([
+    {
+      id: 1,
+      img: Invoice,
+      github_link: "https://github.com/YimonA/Invoice-App",
+      demo_link: "https://invoice-app-yimona.vercel.app/",
+    },
+    {
+      id: 2,
+      img: RealEstateDashboard,
+      github_link: "https://github.com/YimonA/Real-Estate-Admin-Dashboard",
+      demo_link: "https://real-estate-dashboard-team-f.vercel.app/login",
+    },
+    {
+      id: 3,
+      img: RealEstateLight,
+      github_link: "https://github.com/YimonA/Real-Estate",
+      demo_link: "https://real-estate-teamf.vercel.app/",
+    },
+    {
+      id: 4,
+      img: Ecommerce,
+      github_link: "https://github.com/YimonA/RTK-Shopping-Cart",
+      demo_link: "https://shopping-cart-yimona.vercel.app/",
+    },
+    {
+      id: 5,
+      img: GoogleContact,
+      github_link: "https://github.com/YimonA/google-contact",
+      demo_link: "https://google-contact-ten.vercel.app/",
+    },
+    {
+      id: 6,
+      img: ContactApp,
+      github_link: "https://github.com/YimonA/Contact-App",
+      demo_link: "https://contact-app-yimona.vercel.app/login",
+    },
+    {
+      id: 7,
+      img: IntranetDashboard,
+      github_link: "https://github.com/YimonA/INTRANET-Dashboard",
+      demo_link: "https://intranet-dashboard.vercel.app",
+    },
+    {
+      id: 8,
+      img: BayDin,
+      github_link: "https://github.com/YimonA/BayDin",
+      demo_link: "https://bay-din-five.vercel.app",
+    },
+    {
+      id: 9,
+      img: POS,
+      github_link: "https://github.com/YimonA/POS",
+      demo_link: "https://pos-one-pi.vercel.app",
+    },
+    
+  ]);
   const settings = {
     dots: true,
     arrows: false,
@@ -50,151 +109,28 @@ const PortfolioCarousel = () => {
       className=""
     >
       <Slider {...settings}>
-      <div className="carousel-image  px-5 ">
+      {projects[0].map(project=>{
+        return(
+          <div key={project.id} className="carousel-image  px-5">
           <div
-            className="image hover:bg-bottom bg-[#161618]"
+            className={`image hover:bg-bottom bg-[#161618]`}
             style={{
-              backgroundImage: `url(${POS})`,
+              backgroundImage: `url(${project.img})`,
               backgroundRepeat: "no-repeat",
             }}
           >
-            <a href="https://github.com/YimonA/POS" target="_blank">
+            <a href={`${project?.github_link}`} target="_blank">
               <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
                 <FiGithub className="w-full h-full" color="white" />
               </button>
             </a>
-            <a href="https://pos-one-pi.vercel.app" target="_blank">
+            <a href={`${project?.demo_link}`} target="_blank">
               <button className="theme-btn">view demo</button>
             </a>
           </div>
         </div>
-      <div className="carousel-image px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${RealEstateDashboard})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a
-              href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
-              target="_blank"
-            >
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://real-estate-dashboard-team-f.vercel.app/login"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-      <div className="carousel-image  px-5 ">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${RealEstateLight})`,
-            }}
-          >
-            <a href="https://github.com/YimonA/Real-Estate" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://real-estate-teamf.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image  px-5">
-          <div
-            className="image hover:bg-bottom"
-            style={{
-              backgroundImage: `url(${GoogleContact})`,
-              backgroundRepeat: "no-repeat",
-
-            }}
-          >
-            <a href="https://github.com/YimonA/google-contact" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a href="https://google-contact-ten.vercel.app/" target="_blank">
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5 ">
-          <div
-            className="image hover:bg-bottom object-contain bg-white"
-            style={{
-              backgroundImage: `url(${Ecommerce})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/RTK-Shopping-Cart" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://shopping-cart-yimona.vercel.app/"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5 ">
-          <div
-            className="image hover:bg-bottom object-contain bg-white"
-            style={{
-              backgroundImage: `url(${ContactApp})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/Contact-App" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://contact-app-yimona.vercel.app/login"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-        <div className="carousel-image px-5 ">
-          <div
-            className="image hover:bg-bottom object-contain bg-white"
-            style={{
-              backgroundImage: `url(${BayDin})`,
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <a href="https://github.com/YimonA/BayDin" target="_blank">
-              <button className=" theme-btn-link mr-2 md:mr-4 hover:bg-[#e77063]">
-                <FiGithub className="w-full h-full" color="white" />
-              </button>
-            </a>
-            <a
-              href="https://bay-din-five.vercel.app"
-              target="_blank"
-            >
-              <button className="theme-btn">view demo</button>
-            </a>
-          </div>
-        </div>
-      
-        
-         
-        
+        )
+      })}
       </Slider>
     </motion.div>
   );

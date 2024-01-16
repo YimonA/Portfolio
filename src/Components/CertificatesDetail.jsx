@@ -28,9 +28,9 @@ const CertificatesDetail = () => {
           transition={{ duration: 0.9, delay: 0.2 }}
           viewport={{ once: false }}
           className=" ps-5 mt-10">
-        {skills?.map((skill) => {
+        {skills?.map((skill,index) => {
           return (
-            <li className="list-disc mb-3 xl:mb-5 text-base font-medium">{skill}</li>
+            <li key={index} className="list-disc mb-3 xl:mb-5 text-base font-medium">{skill}</li>
           );
         })}
       </motion.ul>
