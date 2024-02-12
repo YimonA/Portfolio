@@ -9,6 +9,7 @@ import RealEstateDashboard from "../images/RealEstate-Dashboard.png";
 import ContactApp from "../images/ContactApp.png";
 import GoogleContact from "../images/GoogleContact.png";
 import Ecommerce from "../images/E-commerce.png";
+import Cashier from "../images/Cashier.png";
 import POS from "../images/POS.png";
 import BayDin from "../images/BayDin.png";
 import IntranetDashboard from "../images/Intranet-Dashboard.png";
@@ -42,34 +43,40 @@ const PortfolioCarousel = () => {
     },
     {
       id: 5,
+      img: Cashier,
+      github_link: "https://github.com/YimonA/Cashier",
+      demo_link: "https://cashier-three.vercel.app/",
+    },
+    {
+      id: 6,
       img: GoogleContact,
       github_link: "https://github.com/YimonA/google-contact",
       demo_link: "https://google-contact-ten.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       img: ContactApp,
       github_link: "https://github.com/YimonA/Contact-App",
       demo_link: "https://contact-app-yimona.vercel.app/login",
     },
     {
-      id: 7,
+      id: 8,
       img: IntranetDashboard,
       github_link: "https://github.com/YimonA/INTRANET-Dashboard",
       demo_link: "https://intranet-dashboard.vercel.app",
     },
     {
-      id: 8,
+      id: 9,
       img: BayDin,
       github_link: "https://github.com/YimonA/BayDin",
       demo_link: "https://bay-din-five.vercel.app",
     },
-    {
-      id: 9,
-      img: POS,
-      github_link: "https://github.com/YimonA/POS",
-      demo_link: "https://pos-one-pi.vercel.app",
-    },
+    // {
+    //   id: 10,
+    //   img: POS,
+    //   github_link: "https://github.com/YimonA/POS",
+    //   demo_link: "https://pos-one-pi.vercel.app",
+    // },
     
   ]);
   const settings = {
